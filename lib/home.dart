@@ -247,6 +247,9 @@ class _HomeState extends State<Home> {
                                     if (expression.isNotEmpty) {
                                       expression = expression.substring(0, expression.length - 1);
                                       showExp = showExp.substring(0, showExp.length - 1);
+                                      if (expression.contains(RegExp(r'[+/*%-]'))) {
+                                        clickEvaluation();
+                                      }
                                     }
                                   },
                                 );
