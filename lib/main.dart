@@ -1,5 +1,5 @@
-import 'package:calculator/home.dart';
 import 'package:flutter/material.dart';
+import 'package:lolxn_calculator/home.dart';
 
 void main() {
   runApp(

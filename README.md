@@ -1,4 +1,4 @@
-# calculator
+# lolxn_calculator
 
 A new Flutter project.
 
